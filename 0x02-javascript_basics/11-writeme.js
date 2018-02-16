@@ -10,7 +10,6 @@ let data = '';
 if (process.argv[3]) {
   data = process.argv[3];
 }
-console.log(data);
 fs.writeFile(path, data, 'utf8', function (err) {
   if (err) {
     console.log(err);
