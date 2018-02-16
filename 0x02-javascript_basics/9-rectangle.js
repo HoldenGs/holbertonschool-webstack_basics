@@ -6,13 +6,13 @@ function Rectangle (w, h) {
     this.height = h;
   }
   this.print = function () {
-  	let str = '';
-	for (let i = 0; i < this.width; i++) {
-	  str += 'X';
-	}
-	for (let j = 0; j < this.height; j++) {
-	  console.log(str);
-	}
+    let str = '';
+    for (let i = 0; i < this.width; i++) {
+      str += 'X';
+    }
+    for (let j = 0; j < this.height; j++) {
+      console.log(str);
+    }
   };
 }
 
