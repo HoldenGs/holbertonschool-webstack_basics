@@ -9,5 +9,4 @@ for (let key in dict) {
   }
   dict2[dict[key]].push(key);
 }
-console.log(dict);
 console.log(dict2);
